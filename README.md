@@ -2,6 +2,8 @@
 
 Use this template to set up billing alarms in your AWS account. You will receive billing alarms to your email and your phone number. 
 
+Important: Can only be deployed in `eu-east-1`, since SMS endpoint subscription is only supported in this region.
+
 ## Todo:
 1. Change email to your email
 2. Change phone number to your phone number 

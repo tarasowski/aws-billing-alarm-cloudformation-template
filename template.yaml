@@ -36,6 +36,7 @@ Resources:
       MetricName: EstimatedCharges
       Namespace: AWS/Billing
       Period: 21600
+      TreatMissingData: breaching
       Statistic: Maximum
       Threshold: !FindInMap [EstimatedCharges, AlarmRange, One]
 
@@ -52,6 +53,7 @@ Resources:
       EvaluationPeriods: 1
       MetricName: EstimatedCharges
       Namespace: AWS/Billing
+      TreatMissingData: breaching
       Period: 21600
       Statistic: Maximum
       Threshold: !FindInMap [EstimatedCharges, AlarmRange, Two]
@@ -69,6 +71,7 @@ Resources:
       EvaluationPeriods: 1
       MetricName: EstimatedCharges
       Namespace: AWS/Billing
+      TreatMissingData: breaching
       Period: 21600
       Statistic: Maximum
       Threshold: !FindInMap [EstimatedCharges, AlarmRange, Three]
@@ -86,6 +89,7 @@ Resources:
       EvaluationPeriods: 1
       MetricName: EstimatedCharges
       Namespace: AWS/Billing
+      TreatMissingData: breaching
       Period: 21600
       Statistic: Maximum
       Threshold: !FindInMap [EstimatedCharges, AlarmRange, Four]
@@ -103,6 +107,7 @@ Resources:
       EvaluationPeriods: 1
       MetricName: EstimatedCharges
       Namespace: AWS/Billing
+      TreatMissingData: breaching
       Period: 21600
       Statistic: Maximum
       Threshold: !FindInMap [EstimatedCharges, AlarmRange, Five]

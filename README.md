@@ -11,6 +11,7 @@ Important: Can only be deployed in `eu-east-1`, since SMS endpoint subscription 
 4. Upload your file and create your stack
 4. Once the stack is created, go to your email account and verify your email address (you should get an email from SNS)
 5. Test if everything works correctly, go to SNS and [publish a message](https://console.aws.amazon.com/sns/v2/home?region=us-east-1#/publish) to your Topic
+6. **Under Billing > Billing preferences > Activate Receive Billing Alerts feature**
 
 You should now receive automated billing alarms to your inbox and your phone.
 
